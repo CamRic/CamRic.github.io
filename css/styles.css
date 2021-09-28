@@ -1,0 +1,478 @@
+
+
+/* BORDERS (for dev) _____________________________ */
+/*
+.border
+{
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.purple
+{
+    border-color: #a70da7;
+}
+
+.blue
+{
+    border-color: blue;
+}
+
+.red
+{
+    border-color: red;
+}
+
+.green
+{
+    border-color: green;
+}
+*/
+
+/*________________________________________________ */
+/* _______________________________________________ */
+/*  _________________   BODY    __________________________________*/
+
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#container
+{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+}
+
+a
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+a:focus
+{
+    border-top: 2px solid blue;
+    text-align: center;
+}
+
+/*_____________________ HEADER _________________________________*/
+
+
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    
+}
+
+#hdr_logo
+{
+    margin-right: auto;
+}
+
+.ancre
+{
+    width: 160px;
+}
+
+header nav
+{
+    display: flex;
+    height: 40px;
+    margin-top: 20px;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav li
+{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    list-style: none;
+}
+
+#sub_link
+{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    margin-bottom: 0px;
+}
+
+
+/*  ____________________    SEARCH SECTION  __________________  */
+
+#srch_cntnr
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#srch_cntnr p
+{
+    display: flex;
+    align-content: flex-end;
+}
+
+p img
+{
+    margin-right: 10px;
+}
+
+
+/*  Search filter */
+
+#srch_fltr_cntnr
+{
+    display: flex;
+    height: 50px;
+}
+
+#srch_fltr_cntnr p
+{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.fltr_elemnt
+{
+    display: flex;
+    width: 180px;
+    border: 2px solid lightgrey;
+    border-radius: 15% / 50%;
+}
+
+.srch_fltr_img
+{
+    display: flex;
+    width: auto;
+    height: 50px;
+    border: 2px solid lightgrey;
+    border-radius: 10% / 50%;
+    margin-left: 20px;
+}
+
+.srch_fltr_img:hover
+{
+    background-color: #DEEBFF;
+}
+
+svg
+{
+    display: flex;
+}
+
+svg text
+{
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Search fieald input */
+
+#srch_fld_cntnr
+{
+    
+    border: 1px lightgrey solid;
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+
+#srch_input
+{
+    border-top: 1px lightgrey solid;
+    border-bottom: 1px lightgrey solid;
+    border-left: none;
+    border-right: none;
+    width: 230px;
+}
+
+
+
+#srch_bttn
+{
+    width: 130px;
+    height: 50px;
+    border: 1px lightgrey solid;
+    border-top-right-radius: 10% 30%;
+    border-bottom-right-radius: 10% 30%;
+    background-color: blue;
+    color: white;
+    font-size: 12pt;
+}
+
+#conteneurInput
+{
+    border: none;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+#conteneurInput input
+{
+    padding-left: 10px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+/*  ______________________________________________________  */
+/*  ______________________________________________________  */
+/*  _______________   ACCOMODATION SECTION _______________  */
+
+#acc_sct_cntnr
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 625px;
+}
+
+#all_acc_cntnr
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    padding: 35px;
+    background-color: #F2F2F2;
+    margin-right: 45px;
+    border-radius: 20px / 20px;
+}
+
+
+#all_acc_elemnts_cntnr
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.acc_elemnt
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250;
+    height: 200;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: white;
+    border-color: grey;
+    border-radius: 20px / 20px;
+}
+
+h3
+{
+    font-size: 12pt;
+    margin: 2px;
+}
+
+.acc_elemnt p
+{
+    margin: 2px;
+}
+
+.acc_elemnt_img_cntnr
+{
+    width: 235px;
+    height: 110px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.acc_elemnt_img
+{
+    width: auto;
+    height: auto;
+}
+
+#stars_cntnr
+{
+    display: flex;
+}
+
+#pop_acc_cntnr
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 35px;
+    background-color: #F2F2F2;
+    border-radius: 20px / 20px;
+}
+
+#pop_title
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+#pop_title img
+{
+    margin: 21px;
+}
+
+#pop_acc_elements_cntnr
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.pop_acc_elemnt
+{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    height: 130px;
+    width: 100%;
+    border-radius: 20px / 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 7px;
+}
+
+.ver_img_frame
+{
+    width: 125px;
+    height: 100%;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.ver_img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.ver_cntnr
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px;
+    height: 100%;
+}
+
+.ver_cntnr p
+{
+    margin-top: 2px;
+    margin-bottom: auto;
+}
+
+
+
+/*  ______________________________________________________  */
+/*  ______________________________________________________  */
+/*  _____________________   ACTIVITY______________________  */
+
+#act_cntnr
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+#act_elemnts_cntnr
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 445px;
+}
+
+.act_elemnt
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 20px / 20px;
+}
+
+.act_elem_pict_big
+{
+    width: 300px;
+    height: 450px;
+}
+
+.act_elem_pict_medium
+{
+    width: 300px;
+    height: 180px;
+}
+
+.act_elem_pict_small
+{
+    width: 300px;
+    height: 110px;
+}
+
+
+
+
+/*  ______________________________________________________  */
+/*  ______________________________________________________  */
+/*  _____________________   FOOTER  ______________________  */
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+}
+
+footer li
+{
+    list-style: none;
+}

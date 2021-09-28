@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <html lang="fr">
+        <title>Reservia</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="container" >
+
+            <!-- HEADER -->
+            <header id="hdr_cntnr" class="border">
+                <img id="hdr_logo" class="border purple" title="logo" alt="logo" src="images/logo/logo_mini.png" />
+                <nav class="border purple">
+                    <ul>
+                        <li class="border blue ancre"><a href="#accmdt_sct">Hébergements</a></li>
+                        <li class="border blue ancre"><a href="#actvt_sct">Activités</a></li>
+                    </ul>
+                </nav>
+                <p class="border purple" id="sub_link"><a href="pageinexistante.html">S'inscrire</a></p>
+            </header>
+            
+            <!-- MAIN -->
+            <main class="border">
+
+                <!-- SEARCH SECTION -->
+                <section class="border blue">
+                    <div id="srch_cntnr">
+                        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                        <p>En plein centre ville ou en pleine nature</p>
+
+                        <!-- Search Field Input -->
+                        <fieldset id="conteneurInput">
+                            <svg id="srch_fld_cntnr">
+                                <image alt="map_mrkr" xlink:href="images/logo/map-marker-alt-solid.svg" width="20" height="20" x='15' y='15' />
+                            </svg>
+                            <input type="text" name="srch_input" id="srch_input" value="Marseille, France"/>
+                            <button id="srch_bttn">Rechercher</button>
+                        </fieldset>
+
+                        
+
+                        <!-- Search Filters -->
+                        <div id="srch_fltr_cntnr" class="border red">
+                            <p>Filtres</p>
+                            <!-- economique -->
+                            <svg class="srch_fltr_img">
+                                <circle cx="25" cy="25" r="25" fill="#DEEBFF" />
+                                <image xlink:href="images/logo/money-bill-wave-solid.svg" width="20" height="20" x='15' y='15' />
+                                <text x='60' y='30'>Economique</text>
+                            </svg>
+                            <!-- familial -->
+                            <svg class="srch_fltr_img">
+                                <circle cx="25" cy="25" r="25" fill="#DEEBFF"/>
+                                <image xlink:href="images/logo/child-solid.svg" width="20" height="20" x='15' y='15'/>
+                                <text x='60' y='30'>Familial</text>
+                            </svg>
+                            <!-- romantique -->
+                            <svg class="srch_fltr_img">
+                                <circle cx="25" cy="25" r="25" fill="#DEEBFF"/>
+                                <image xlink:href="images/logo/heart-solid.svg" width="20" height="20" x='15' y='15'/>
+                                <text x='60' y='30'>Romantique</text>
+                            </svg>
+                            <!-- animaux -->
+                            <svg class="srch_fltr_img">
+                                <circle cx="25" cy="25" r="25" fill="#DEEBFF"/>
+                                <image xlink:href="images/logo/dog-solid.svg" width="20" height="20" x='15' y='15'/>
+                                <text x='60' y='30'>Animaux autorisés</text>
+                            </svg>
+                        </div>
+                        <p><img class="info_img" alt="info" src="images/logo/info-circle-solid.svg" width="20"/>Plus de 500 logements disponnibles dans cette ville</p>
+                    </div>
+
+                </section>
+
+                <!-- ACCOMODATION SECTION -->
+                <section class="border blue" id="accmdt_sct">
+                    <div id="acc_sct_cntnr"> <!-- container -->
+                        <div id="all_acc_cntnr"> <!-- all accomodations -->
+                            <h1>Hébergements à Marseille</h1>
+                            <div id="all_acc_elemnts_cntnr"> <!-- all accomodations container -->
+                                <!-- adding acc elements -->
+                                <div class="acc_elemnt"> <!-- auberge cannibeire -->
+                                    <div class="acc_elemnt_img_cntnr">
+                                        <img class="acc_elemnt_img" alt="auberge_cannebiere_img" src="images/hebergements/mini_hor/cannebiere_mini_hor.jpg" />
+                                    </div>
+                                    <h3>Auberge la Cannebière</h3>
+                                    <p>Nuit à partir de 25 euros</p>
+                                    <div class="stars_cntnr"> <!-- stars rating container -->
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_grey" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                    </div>
+                                </div>
+
+                                <div class="acc_elemnt"> <!-- hotel du port -->
+                                    <div class="acc_elemnt_img_cntnr">
+                                        <img class="acc_elemnt_img" alt="auberge_cannebiere_img" src="images/hebergements/mini_hor/cannebiere_mini_hor.jpg" />
+                                    </div>
+                                    <h3>Auberge la Cannebière</h3>
+                                    <p>Nuit à partir de 25 euros</p>
+                                    <div class="stars_cntnr"> <!-- stars rating container -->
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_grey" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                    </div>
+                                </div>
+
+                                <div class="acc_elemnt"> <!-- hotel les mouettes -->
+                                    <div class="acc_elemnt_img_cntnr">
+                                        <img class="acc_elemnt_img" alt="auberge_cannebiere_img" src="images/hebergements/mini_hor/cannebiere_mini_hor.jpg" />
+                                    </div>
+                                    <h3>Auberge la Cannebière</h3>
+                                    <p>Nuit à partir de 25 euros</p>
+                                    <div class="stars_cntnr"> <!-- stars rating container -->
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_grey" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                    </div>
+                                </div>
+
+                                <div class="acc_elemnt"> <!-- hotel de la mer -->
+                                    <div class="acc_elemnt_img_cntnr">
+                                        <img class="acc_elemnt_img" alt="auberge_cannebiere_img" src="images/hebergements/mini_hor/cannebiere_mini_hor.jpg" />
+                                    </div>
+                                    <h3>Auberge la Cannebière</h3>
+                                    <p>Nuit à partir de 25 euros</p>
+                                    <div class="stars_cntnr"> <!-- stars rating container -->
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_grey" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                    </div>
+                                </div>
+
+                                <div class="acc_elemnt"> <!-- auberge le panier -->
+                                    <div class="acc_elemnt_img_cntnr">
+                                        <img class="acc_elemnt_img" alt="auberge_cannebiere_img" src="images/hebergements/mini_hor/cannebiere_mini_hor.jpg" />
+                                    </div>
+                                    <h3>Auberge la Cannebière</h3>
+                                    <p>Nuit à partir de 25 euros</p>
+                                    <div class="stars_cntnr"> <!-- stars rating container -->
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_grey" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                    </div>
+                                </div>
+
+                                <div class="acc_elemnt"> <!-- hotel amina -->
+                                    <div class="acc_elemnt_img_cntnr">
+                                        <img class="acc_elemnt_img" alt="auberge_cannebiere_img" src="images/hebergements/mini_hor/cannebiere_mini_hor.jpg" />
+                                    </div>
+                                    <h3>Auberge la Cannebière</h3>
+                                    <p>Nuit à partir de 25 euros</p>
+                                    <div class="stars_cntnr"> <!-- stars rating container -->
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        <img class="str_img_grey" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                    </div>
+                                </div>
+
+                            </div>
+                            <p><a href="index.html">Afficher plus</a></p>
+                        </div>
+
+                         <!-- popular accomodations -->
+                        <div id="pop_acc_cntnr">
+                            <div id="pop_title"> <!-- top cntnr -->
+                                <h1>Les plus populaires</h1>
+                                <img alt="chrt_ln" src="images/logo/chart-line-solid.svg" width="20"/>
+                            </div>
+                            <div id="pop_acc_elements_cntnr"> <!-- acc elements container -->
+                                
+                                    <!-- ADDING ELEMENTS -->
+                                <div class="pop_acc_elemnt">
+                                    <div class="ver_img_frame"> <!-- soleil matin -->
+                                        <img class="ver_img" alt="ver_img" src="images/hebergements/mini_ver/soleil_matin_mini_ver.jpg" />
+                                    </div>
+                                    <div class="ver_cntnr">
+                                        <h3>Hôtel Le soleil du matin</h3>
+                                        <p>Nuit à partir de 128 euros</p>
+                                        <div class="stars_cntnr">
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pop_acc_elemnt">
+                                    <div class="ver_img_frame"> <!-- soleil matin -->
+                                        <img class="ver_img" alt="ver_img" src="images/hebergements/mini_ver/soleil_matin_mini_ver.jpg" />
+                                    </div>
+                                    <div class="ver_cntnr">
+                                        <h3>Hôtel Le soleil du matin</h3>
+                                        <p>Nuit à partir de 128 euros</p>
+                                        <div class="stars_cntnr">
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pop_acc_elemnt">
+                                    <div class="ver_img_frame"> <!-- soleil matin -->
+                                        <img class="ver_img" alt="ver_img" src="images/hebergements/mini_ver/soleil_matin_mini_ver.jpg" />
+                                    </div>
+                                    <div class="ver_cntnr">
+                                        <h3>Hôtel Le soleil du matin</h3>
+                                        <p>Nuit à partir de 128 euros</p>
+                                        <div class="stars_cntnr">
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                            <img class="str_img_blue" alt="pt" src="images/logo/star-solid.svg" width="12" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- activity section -->
+                <section class="border blue" id="actvt_sct">
+                    <div id="act_cntnr">
+                        <h1>Activités à Marseille</h1>
+                        <div id="act_elemnts_cntnr">
+                            <!-- ADDING ACTIVITY ELEMEJTS -->
+                            <div class="act_elemnt">
+                                <img class="act_elem_pict_big" alt="elme" src="images/activites/lbl/vieux_port_lbl_img.jpg" />
+                                <h3>Vieux Port</h3>
+                            </div>
+
+                            <div class="act_elemnt">
+                                <img class="act_elem_pict_medium" alt="elme" src="images/activites/lbl/pomegue_lbl_img.jpg" />
+                                <h3>Vieux Port</h3>
+                            </div>
+
+                            <div class="act_elemnt">
+                                <img class="act_elem_pict_small" alt="elme" src="images/activites/lbl/frioul_lbl_img.jpg" />
+                                <h3>Vieux Port</h3>
+                            </div>
+
+                            <div class="act_elemnt">
+                                <img class="act_elem_pict_big" alt="elme" src="images/activites/lbl/calanques_lbl_img.jpg" />
+                                <h3>Vieux Port</h3>
+                            </div>
+
+                            <div class="act_elemnt">
+                                <img class="act_elem_pict_small" alt="elme" src="images/activites/lbl/nddlg_lbl_img.jpg" />
+                                <h3>Vieux Port</h3>
+                            </div>
+
+                            <div class="act_elemnt">
+                                <img class="act_elem_pict_medium" alt="elme" src="images/activites/lbl/longchamp_lbl_img.jpg" />
+                                <h3>Vieux Port</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </main>
+    
+            <footer id="ftr_cntnr" class="border">
+                <div class="border purple footer_element">
+                    <h2>A propos</h2>
+                    <p>Fonctionnement du site</p>
+                    <p>Conditions générales de vente</p>
+                    <p>Données et confidentialité</p>
+                </div>
+                <div class="border purple footer_element">
+                    <h2>Nos hébergements</h2>
+                    <ul>
+                        <li>Charte qualité</li>
+                        <li>Soumettre votre hôtel</li>
+                    </ul>
+                </div>
+                <div class="border purple footer_element">
+                    <h2>Assistance</h2>
+                    <ul>
+                        <li>Centre d'aide</li>
+                        <li>Nous contacter</li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
